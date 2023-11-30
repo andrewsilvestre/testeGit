@@ -1,0 +1,3 @@
+mkdir testeGit
+cd testeGit
+touch teste.txt
