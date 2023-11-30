@@ -3,6 +3,9 @@ cd testeGit
 touch teste.txt
 git add.
 git commit -m "Primeiro commit"
-echo "Probremas ha corrigir!" >> teste.txt
+echo "Problemas para corrigir!" >> teste.txt
 git add.
 git commit -m "Segundo commit"
+sed -i 's/probremas/problemas/' teste.txt
+git add .
+git commit "Terceiro commit"
